@@ -10,7 +10,6 @@ body {
 }
 
 .intro-left {
-  background: url(../img/1.jpg);
   position: fixed;
   left: 0;
   width: 33.3333%;
@@ -20,10 +19,11 @@ body {
 
 @media (max-width: 768px) {
   .intro-left {
-    height: 30vh;
+    height: auto;
     margin-bottom: 0;
     position: relative;
     width: 100%;
+    font-size: 0px;
   }
 }
 
@@ -64,15 +64,22 @@ a {
 
 .card-img-top {
   width: 100%;
+
   height: 10vw;
   object-fit: cover;
 }
 
 .background {
-  background-color: #eee;
   width: 100%;
   height: 100%;
   z-index: -1;
   position: fixed;
-  clip-path: polygon(36% 0, 95% 0, 65% 100%, 18% 100%);
+}
+
+.card:hover {
+  width: 100%;
+  border-top: 10px;
+  border-left: 10px;
+  border-color: blue;
+  transition: 1s;
 }
