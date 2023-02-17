@@ -53,6 +53,11 @@ section {
 }
 
 a {
+  color: grey;
+  text-decoration: none;
+}
+
+i {
   color: whitesmoke;
   text-decoration: none;
 }
