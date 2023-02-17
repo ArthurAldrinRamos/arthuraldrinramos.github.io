@@ -48,13 +48,16 @@ section {
   font-size: 1.2rem;
 }
 
+#dl-cv {
+  color: red;
+}
+
 a {
-  color: #fffbeb;
+  color: whitesmoke;
   text-decoration: none;
 }
 
 .footer {
-  background-color: #fff;
   font-size: 1rem;
   margin: 0;
 }
